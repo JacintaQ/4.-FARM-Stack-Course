@@ -1,0 +1,12 @@
+#  @bekbrace
+#  FARMSTACK Tutorial - Sunday 13.06.2021
+#  (version pins loosened 2026-10-14: the original 2021 pins no longer install on Python 3.12 / modern pip)
+
+# Fastening light Python Framework for API build
+fastapi>=0.110
+
+# Fast ASGI server implementation which helps in the interaction between your application and the backend
+uvicorn[standard]>=0.29
+
+# Motor is a full-featured, non-blocking IO MongoDB driver for Python
+motor>=3.4
